@@ -1,0 +1,92 @@
+body{
+    background-color: rgba(166, 166, 166, 0.427);
+}
+.main{
+    background-color:transparent;
+    height: 500px;
+    width: 700px;
+    border-radius: 25px;
+    position: relative;
+    left: 400px;
+    top: 90px;
+    border-color: black;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 4px 5px;
+
+}
+.main:not(:disabled):hover,
+  .main:not(:disabled):focus {
+    outline: 0;
+    box-shadow: 2px 7px 8px;
+  }
+.container{
+    border-right: 3px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    height:100%;
+    width: 60%;
+}
+.text-container {
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 97%;
+    border: 3px solid transparent;
+    font-family: arial,sans-serif;
+}
+#title {
+    color: black;
+    font-family: Arial;
+    width: 60%;
+    position: relative;
+    top: -20px;
+    font-size: 24px;
+}
+.image-container {
+    height: 100%;
+    width: 40%;
+    border-right: 3px solid transparent;
+    border-radius: 25px;
+    
+    position: relative;
+    left:423.5px;
+    top: -500px;
+}
+.road{
+    width: 99%;
+    position: relative;
+    top: 150px;
+    opacity: 0.7;
+}
+.car{
+    width: 80%;
+    position: relative;
+    top: 10px;
+
+}
+.car:not(:disabled):hover,
+  .car:not(:disabled):focus {
+    animation: slide 3s ease forwards;
+  }
+@keyframes slide {
+    0% {
+      left: 0px;
+    }
+    25% {
+      left: -50px;
+      top: -7px;
+    }
+    100% {
+      left: 0px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
